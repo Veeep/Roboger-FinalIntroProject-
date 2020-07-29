@@ -1,6 +1,5 @@
 #response {
   display: none;
- 
 }
 
 #commence {
@@ -17,18 +16,17 @@
   color: rgb(42, 80, 109);
   font-size: larger;
   font-weight: 500;
-
 }
 
 #topSection {
-   background-color: lightblue;
- }
+  background-color: lightblue;
+}
  
- .jumbotron {
-   background-color: steelblue;
-   color:rgb(155, 32, 32);
-
+.jumbotron {
+  background-color: steelblue;
+  color:rgb(155, 32, 32);
  }
 
- #middleSection {
-background-color: rgb(162, 183, 201); }
+#middleSection {
+  background-color: rgb(162, 183, 201); 
+}
