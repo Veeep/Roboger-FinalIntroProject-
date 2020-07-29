@@ -1,8 +1,9 @@
 // Business logic:
+
 function makeRange(maxNumber) {
   let range = [];
   for (i = 0; i <= maxNumber; i++) {
-      range.push(i);
+    range.push(i);
   }
   return range;
 }
@@ -24,10 +25,7 @@ function robotResults(rangeNumbers){
     }
   });
   return finalArray; 
-
 }
-
-
 
 // User interface logic:
 
@@ -37,10 +35,9 @@ $(document).ready(function() {
     const maxNumber = $("#rangeInput").val();
     let rangeNumbers = makeRange(maxNumber);
     let result = robotResults(rangeNumbers);
-$("#response").show();
-$("#commence").slideDown(2000);
-$("#lastLine").show(6000);
-$("#answer").text(result);
-
-});
+    $("#response").show();
+    $("#commence").slideDown(2000);
+    $("#lastLine").show(6000);
+    $("#answer").text(result);
+  });
 });
