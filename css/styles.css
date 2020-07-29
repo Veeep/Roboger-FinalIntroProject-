@@ -1,0 +1,34 @@
+#response {
+  display: none;
+ 
+}
+
+#commence {
+  display: none;
+  color: rgb(155, 32, 32);
+}
+
+#lastLine {
+  display: none;
+  font-size: larger;
+}
+
+#answer {
+  color: rgb(42, 80, 109);
+  font-size: larger;
+  font-weight: 500;
+
+}
+
+#topSection {
+   background-color: lightblue;
+ }
+ 
+ .jumbotron {
+   background-color: steelblue;
+   color:rgb(155, 32, 32);
+
+ }
+
+ #middleSection {
+background-color: rgb(162, 183, 201); }
